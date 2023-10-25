@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Pixelify+Sans&family=Poppins&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    /* color:black; */
+    font-family:Poppins;
+    text-decoration: none;
+}
+body {
+    
+    background-color:#8EA7E9;
+    font-size: 20px;
+}
+header{
+    border:solid 3px black;
+    border-radius:6px;
+}
+
+.center{
+    background-color:#526D82;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:7vw;
+}
+.center, h1{
+    color: #132043;
+    font-size: 6vw;
+    padding:15px;
+    border-radius:6px;
+
+}
+.center{
+    color: white;
+}
+#array-cont{
+    /* overflow: hidden; */
+    height: 54vh;
+    padding-bottom:3vh;
+}
+.flex-container{
+    padding-top: 6vw;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 27vw;
+    justify-content: center;
+}
+
+.flex-item{
+    background:#F875AA;
+    margin: 1px;
+    border: 1pt solid black;
+    width: 21px;
+    transition: 0.1s all ease;
+}
+
+.row{
+    /* background-color: red; */
+    margin-top:5vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#clickme{
+   color: white;
+   font-weight: bold;
+   font-size: 1vw;
+   background-color: #27374D;
+   padding: 12px 27px;
+   border-radius: 6px;
+   border: solid 1px black;
+}
+#clickme1{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    background-color:#526D82;
+    padding: 12px 27px;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+#selectionSortExplain{
+    padding-top: 5vw;
+}
+
+#selectionSortExplain h1{
+    color:whitesmoke;
+    padding-left:3vw;
+}
+#selectionSortExplain p{
+    text-indent:4vw;
+    padding:1vh;
+    padding-left:6vw;
+    font-size: 2vw;
+    /* padding-bottom:vw; */
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+#lastdiv{
+    display: flex;
+    color:white;
+    justify-content: center;
+    background-color: black;
+}
+@media screen and (max-width:600px) {
+  body{
+    background-color: #132043;
+    color: white;
+  }
+  /* .header{
+    height:vh;
+  } */
+  .center{
+    background-color:#526D82;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:15vw;
+}
+
+ 
+#clickme{
+    color: white;
+    font-size: 5vw;
+    padding: 4vw 12vw;
+ }
+ #clickme1{
+    color: white;
+    font-size: 5vw;
+    padding: 4vw 12vw;
+ }
+    #array-cont{
+        /* overflow: hidden; */
+        height: 33vh;
+        padding-bottom:3vh;
+    }  
+    #selectionSortExplain h1{
+        font-size:9vw;
+        color: #7293ef;
+    }
+    #selectionSortExplain p{
+        font-size:3vh;
+        text-indent:7vw;
+    } 
+}

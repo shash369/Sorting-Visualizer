@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Pixelify+Sans&family=Poppins&family=Roboto:wght@400;700&display=swap');
+*{
+    font-family:poppins;
+    margin:0;
+    padding:0;
+    color: #0F0F0F;
+    text-decoration: none;
+   
+}
+h1{
+    display: block;
+    color: whitesmoke;
+    font-size:8vw;
+}
+body{
+    background-color: azure;
+    /* padding-bottom: 1000px; */
+   
+}
+#sorting{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#131a26;
+}
+h6{
+    font-size:5vw;
+    padding-top:3%;
+    padding-left: 6%;
+}
+#answer p{
+    font-size: 2vw;
+    padding-left :5em;
+    padding-right:1.8em;
+    /* padding-top:3em; */
+}
+#answer h6{
+    font-size: 3vw;
+
+}
+#answer p:nth-child(3){
+    padding-top: 2em;
+    /* padding-bottom: 3em; */
+}
+/* p:nth-child(4){
+    background-color: red;
+    padding-left: 0em;
+    margin-top: 0em;
+} */
+#typesOfSorting{
+    padding-top: 1vw;
+    font-size: 2vw;
+    padding-left :5em;
+    padding-right:1.8em;
+}
+.boxes{
+    padding-top:3vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+#box{
+overflow: hidden;
+font-size: 3vw;
+}
+#box p{
+    padding-left:1.5vw;
+ }
+#box2 p{
+    padding-left:1vw;
+    font-size:3vw;
+ }
+.bubble{
+    object-fit:contain;
+    width:21vw;
+}
+@media screen and (max-width:600px) {
+    *{
+        color: aliceblue;
+    }
+   body{
+    background-color: #0F0F0F;
+    color:whitesmoke;
+   }
+   h1{
+    font-size:9vh;
+    color: aliceblue;
+   }
+   h6{
+    font-size:5vh;
+    padding-top:3%;
+    padding-left: 6%;
+    
+   }
+#answer p{
+    font-size: 2vh;
+    padding-left :5em;
+    padding-right:1.8em;
+}
+#answer h6{
+    font-size: 3vh;
+
+}
+#typesOfSorting{
+    font-size: 2vh;
+    padding-left :5em;
+    padding-right:1.8em;
+    padding-top:1vh;
+}
+}

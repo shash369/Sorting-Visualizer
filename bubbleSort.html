@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<head>
+    <title>bubble sorting visulizer</title>
+    <link rel="stylesheet" href="bubbleSort.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Bubble Sort visulizer</h1>
+    </div>
+    <h2>
+        animated visulizer
+    </h2>
+    <div id="container2">
+     <div id="container"></div>
+    </div>
+     <div>
+        <button onClick="init()">Genrate random array</button>
+        <button onClick="play()">Start</button>
+        <button onClick="window.location.reload();">if you want to change the size</button>
+        <button onclick="speed=speed+50">Speed-</button>
+        <button onclick="speed=speed-50">Speed+</button>
+     </div>
+
+     <div class="explanation">
+        <h1>explanation:</h1>
+        <p>
+        Bubble sort algorithm is an algorithm that sorts an array by comparing two adjacent elements and swapping them if they are not in the intended order. <br>
+         Here order can be anything like increasing or decreasing. <br>
+<h1> How Bubble-sort works?</h1>
+<p> We have an unsorted array arr = [ 1, 4, 2, 5, -2, 3 ], <br> 
+    and the task is to sort the array using bubble sort in ascending order. </p>
+<p>
+Bubble sort compares the element from index 0 and if the 0th index value is greater than 1st index value, <br>
+ then the values get swapped and if the 0th index value is less than the 1st index value, then nothing happens. <br>
+
+Next, the 1st index value compares to the 2nd index value, and then the 2nd index value compares to the 3rd index value, and so on… </p>
+</div>
+
+<div class="img-div">
+<h1>Let’s see with an example. Here, each step is briefly illustrated:
+</h1>
+
+    
+<p> 
+    Comparisons happen till the last element of the array <br>
+    After each iteration, the greatest value of the array becomes the last index value of the array. <br> In each iteration, the comparison happens till the last unsorted element. </p>
+    <img class="im" src="bubbleSort.webp" alt="">
+    <p>
+    Now comparison reduced one step because the biggest element is at its right place
+    After all the iteration and comparisons of elements, we get a sorted array.</p>
+       
+    
+    </div>
+    <div class="end">
+        <div>
+            <h1>
+                is Bubble-sort stable ?
+            </h1>
+             <p>YES</p>
+        </div>
+        <div>
+            <h1>
+                Time complexity of Bubble-sort ?
+            </h1>
+            <p>O(n^2)</p>
+        </div>
+        <button class="homeButton"><a href="homepage.html"> To Home-Page</a></button>
+    </div>
+
+    <div id="heading">
+        <h1>Thank you</h1>
+    </div>
+    <div id="lastdiv">
+        <p>@Shashwat shukla</p>   
+</div>
+
+    <script src="bubbleSort.js"></script>
+</body>
+</html>
